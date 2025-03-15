@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jZnQUuD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 1: Create a Windows 10 Azure Vitual Machine with 10 vCPU's, then login to that VM with Remote Desktop. Within the VM, download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”.
@@ -41,7 +41,7 @@ Step 1: Create a Windows 10 Azure Vitual Machine with 10 vCPU's, then login to t
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UrKtQWF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 2:*IN THIS ORDER* Install / Enable IIS in Windows WITH CGI. From the “osTicket-Installation-Files” folder, install PHP Manager for IIS, install the Rewrite Module, Create the directory C:\PHP, unzip PHP 7.3.8 into the “C:\PHP” folder, install VC_redist.x86.exe, and install MySQL then setup from there.
@@ -51,7 +51,7 @@ Step 2:*IN THIS ORDER* Install / Enable IIS in Windows WITH CGI. From the “osT
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3IlT68w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 3: Open IIS as an Admin
@@ -65,7 +65,7 @@ Register PHP from within IIS, Reload IIS , Install osTicket v1.15.8, Reload IIS 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Wdvegtd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 4: 
